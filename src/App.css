@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color:crimson;
+}
+
+.to_end {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.show {
+  display: contents;
+}
+
+/** Swapper Styling  */
+
+.bg-dim {
+  background-color:#191B1F;
+  max-width: 500px;;
+  margin: auto;
+}
+
+.borderless{ 
+  border: none;
+  outline: none;
+}
+
+.border-curved {
+  border-radius: 12px;
+}
+
+.font-large {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.font-normal {
+  font-size: 17px;
+  color: rgb(167, 168, 168);
+}
+
+
+.bttn {
+  background-color: #2534A1;
+  max-width: 70%;
+  margin: auto;
+}
+
+.bttn:hover {
+  cursor: pointer;
+}
+
+.txt-white {
+  color: rgb(202, 204, 204);
+}
+
+.input-box:focus {
+  color: white;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select{ 
+  background: #191B1F;
+  border: 1px solid black;
+  outline: black;
+}
